@@ -1,0 +1,294 @@
+page {
+	height: 100%;
+	//padding-top: calc(var(--status-bar-height));
+	//background-color: #eee;
+}
+.container {
+	width: 100%;
+	//height: 120upx;
+}
+.headView {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	/* background-color: transparent; */
+	background-color: #fff;
+}
+.headView.active {
+	background-color: #04C1AB;
+}
+.tobar {
+	padding-top: 12upx;
+	text-align: center;
+}
+.tobar text {
+	font-size: 34upx;
+	color: #fff;
+}
+.back_btn {
+	float: left;
+	width: 60upx;
+	height: 60upx;
+	line-height: 60upx;
+	border-radius: 30upx;
+	font-size: 60upx;
+	margin-left: 20upx;
+	text-align: left;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.nav_right {
+	float: right;
+	width: 60upx;
+	height: 60upx;
+	line-height: 60upx;
+	border-radius: 30upx;
+	font-size: 60upx;
+	margin-right: 20upx;
+	text-align: left;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.banner {
+	padding: 10upx;
+	background-color: #fff;
+}
+.banner image {
+	width: 100%;
+	height: 300upx;
+}
+.detail_tv1 {
+	padding:30upx 20upx;
+	background-color: #fff;
+	border-top: 1upx solid #eee;
+}
+.detail_tv1 .h2 {
+	font-size: 34upx;
+	color: #333;
+	line-height: 40upx;
+}
+.caigou {
+	font-size: 28upx;
+	color: #666;
+	line-height: 40upx;
+}
+.caigou text {
+	color: red;
+}
+.goods_xx {
+	margin-top: 12upx;
+	background-color: #fff;
+}
+.goods_xx .title {
+	padding:30upx 20upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1upx solid #eee;
+	position: relative;
+}
+.goods_xx .title .icon_il {
+	width: 32upx;
+}
+.goods_xx .title text {
+	display:block;
+	flex: 1;
+	text-align: left;
+	margin-left: 12upx;
+}
+.more {
+	font-size: 50upx;
+	color: #999;
+	line-height: 44upx;
+}
+.detail_tvs {
+	padding: 20upx;
+}
+.detail_tvs text {
+	display: block;
+	font-size: 26upx;
+	color: #666;
+	padding: 4upx 0;
+}
+.detail_gg {
+	margin-top: 12upx;
+	background-color: #fff;
+	padding: 20upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.detail_lg {
+	flex: 1;
+	text-align: left;
+	display: flex;
+	justify-content: center;
+}
+.shopBtn {
+	padding: 0 20upx;
+	border:1upx solid #d2625f;
+	color: #d2625f;
+	font-size: 26upx;
+	line-height: 40upx;
+	border-radius: 21upx;
+}
+.goods_img {
+	width: 100upx;
+	height: 100upx;
+	border:1upx solid #ddd;
+	overflow: hidden;
+	border-radius: 8upx;
+}
+.goods_img image {
+	width: 100%;
+	height:100upx;
+}
+.gg_xx {
+	flex: 1;
+	text-align: left;
+	padding-left: 20upx;
+}
+.gg_xx .name {
+	font-size: 28upx;
+	color: #333;
+	font-weight: 500;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.gg_xx .tt {
+	margin-top: 20upx;
+	font-size: 24upx;
+	color: #666;
+}
+.shangjia {
+	float: left;
+	margin-right: 16upx;
+}
+.gg_xx .tt text {
+	color: #d2625f;
+}
+.ps_sm {
+	padding: 20upx;
+	min-height: 140upx;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ps_sm .tc {
+	font-size: 26upx;
+	color: #666;
+}
+.ps_sm .tc text {
+	color: #d2625f;
+}
+.tt_lj {
+	font-size: 26upx;
+	color: #666;
+}
+.goods_xx .tt_lj .number {
+	color: #d2625f;
+	display: inline-block;
+	flex: none;
+	margin-left: 0;
+}
+/* 表格 */
+.tableView{
+	padding: 20upx;
+	/* border:1px solid #000;
+    border-right:0;
+    border-bottom: 0; */
+	margin-left: 1%;
+}
+.th1{
+	width: 20%
+}
+.th2 {
+	width: 30%
+}
+.th3{
+	width: 20%
+}
+.th4{
+	width: 30%
+}
+/* 表格cell */
+.table_cell{
+	display: flex;
+	justify-content: space-between; /* 项目位于各行之间留有空白的容器内。 */
+	width: 100%;
+	font-size: 25upx;
+	color: #330e0e;
+	text-align: center;
+}
+.td{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60upx;
+	/* border-bottom: 1px solid #000;
+    border-right: 1px solid #000; */
+}
+.td1{
+	width: 20%;
+}
+.td2 {
+	width: 30%;
+}
+.td3{
+	width: 20%;
+	text-align: center;
+}
+.td4{
+	width: 30%;
+	text-align: right;
+}
+.moreBtn {
+	border-top: 1upx solid #eee;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80upx;
+	text-align: center;
+	font-size: 24upx;
+	color: #999;
+}
+.moreBtn .iconfont {
+	font-size: 34upx;
+}
+
+// 底部
+.lowViews {
+	position:fixed;
+	left: 0upx;
+	bottom:0upx;
+	width: 100%;
+	background-color:#fff;
+	height: 100upx;
+	z-index: 9999;
+	//padding-left: 126upx;
+	display: flex;
+}
+.lowViews .test1 {
+	width: 30%;
+	text-align: center;
+	font-size: 28upx;
+}
+.lowViews .test1 .view1{
+	height: 60upx;
+}
+.lowViews .test1 image{
+	margin-top: 10upx;
+	width: 40upx;
+	height: 40upx;
+
+}
+.lowViews .test2 {
+	width: 40%;
+	text-align: center;
+	background-color:#04c1ab;
+	color: #fff;
+	line-height: 100upx;
+}

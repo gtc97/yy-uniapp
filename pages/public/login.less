@@ -1,0 +1,241 @@
+page{
+		background: #fff;
+		height: 100%;
+	}
+	.container{
+		position:relative;
+		width: 100vw;
+		/* height: 100vh; */
+		height: 100%;
+		overflow: hidden;
+		background: #fff;
+		//padding-top: 36upx;
+		box-sizing: border-box;
+	}
+	.wrapper{
+		position:relative;
+		z-index: 90;
+		padding-bottom: 40upx;
+	}
+	.wrapper .top {
+		 padding-bottom: 100upx;
+		 width: 100%;
+		 text-align:center;
+	 }
+	.wrapper .top .background {
+		width: 100%;
+		height: 320upx
+	}
+	.wrapper .top .logo {
+		width: 200upx;
+		height: 200upx;
+		margin-top: -100upx;
+	}
+	.wrapper .mobile-login-link {
+		width: 100%;
+		text-align: center;
+		height: 60rpx;
+		line-height: 60rpx;
+		font-size: 32upx;
+		color:#29ADFF;
+	}
+	.back-btn{
+		position:absolute;
+		left: 40upx;
+		z-index: 9999;
+		padding-top: var(--status-bar-height);
+		top: 40upx;
+		font-size: 40upx;
+		color: #303133;
+	}
+	.left-top-sign{
+		font-size: 120upx;
+		color: #f8f8f8;
+		position:relative;
+		left: -16upx;
+	}
+	.right-top-sign{
+		position:absolute;
+		top: 80upx;
+		right: -30upx;
+		z-index: 95;
+	}
+
+	.left-bottom-sign{
+		position:absolute;
+		left: -270upx;
+		bottom: -320upx;
+		border: 100upx solid #d0d1fd;
+		border-radius: 50%;
+		padding: 180upx;
+	}
+	.welcome{
+		position:relative;
+		left: 50upx;
+		top: -90upx;
+		font-size: 46upx;
+		color: #555;
+		text-shadow: 1px 0px 1px rgba(0,0,0,.3);
+	}
+	.input-content{
+		padding: 0 40upx;
+	}
+	.input-item{
+		position:relative;
+		display:flex;
+		align-items: center;
+		padding: 0 20upx;
+		background:#f8f6fc;
+		height: 100upx;
+		border-radius: 10upx;
+		background: #fff;
+		border-bottom: 1upx solid #F0F0F0;
+	}
+	.input-item .tit{
+		height: 50upx;
+		line-height: 56upx;
+		font-size: 26upx;
+		color: #606266;
+	}
+
+	.input-item input{
+		height: 60upx;
+		line-height: 60upx;
+		font-size: 38upx;
+		color: #303133;
+		width: 100%;
+	}
+
+	.confirm-btn{
+		width: 670upx;
+		height: 80upx;
+		line-height: 80upx;
+		border-radius: 4px;
+		margin-top: 40upx;
+		background: #04c1ab;
+		color: #fff;
+		font-size: 36upx;
+	}
+	.confirm-btn:after{
+		border-radius: 100px;
+		border: 1px solid #04c1ab;
+	}
+	.forget-section{
+		font-size: 40upx;
+		color: #4399fc;
+		text-align: center;
+		margin-top: 40upx;
+		padding: 0 40upx;
+	}
+	.forget-section text {
+		font-size: 32upx;
+		color:#29ADFF;
+	}
+	.register-section{
+		position:absolute;
+		left: 0;
+		bottom: 50upx;
+		width: 100%;
+		font-size: 26upx;
+		color:#606266;
+		text-align: center;
+	}
+	.register-section text{
+		color:#4399fc;
+		margin-left: 10upx;
+	}
+	.parties_login {
+		position: absolute;
+		left: 0;
+		bottom: 60upx;
+		width: 100%;
+		text-align: center;
+	}
+	.parties_login text {
+		display: inline-block;
+		position: relative;
+		font-size: 24upx;
+		color: #bbb;
+	}
+	.parties_login text:before {
+		display: block;
+		content: '';
+		position: absolute;
+		top: 50%;
+		width: 40upx;
+		height: 1px;
+		background:#bbb;
+		right: 100%;
+		margin-right: 20upx;
+	}
+	.parties_login text:after {
+		display: block;
+		content: '';
+		position: absolute;
+		top: 50%;
+		width: 40upx;
+		height: 1px;
+		background:#bbb;
+		left: 100%;
+		margin-left: 20upx;
+	}
+	.login_fs {
+		text-align: center;
+		margin-top: 40upx;
+	}
+	.login_fs image {
+		width:78upx;
+		display: block;
+		margin: auto;
+	}
+	.login_fs .tt {
+		font-size: 24upx;
+		color: #bbb;
+		margin-top: 10upx;
+	}
+	.get-verify {
+		font-size: 30upx;
+		text-align: center;
+		line-height: 54upx;
+		width: 200upx;
+		height: 54upx;
+		background: #fff;
+		border-radius: 10upx;
+		margin-left: 20upx;
+		font-size: 28upx;
+		color: #29ADFF;
+		z-index: 100;
+
+	}
+	.get-verify-disable {
+		font-size: 30upx;
+		text-align: center;
+		line-height: 50upx;
+		width: 180upx;
+		height: 50upx;
+		font-size: 24upx;
+		background: rgba(178, 179, 183, 1);
+		border-radius: 10upx;
+		margin-left: 20upx;
+		color: #FFFFFF;
+
+	}
+	.input-item button {
+		position: absolute;
+		right: 20upx;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.agreement {
+		width: 100%;
+		text-align: center;
+		color: #00B9A8;
+		font-size: 30upx;
+		position: fixed;
+		bottom: 30upx;
+	}
+	#register-agreement {
+		position: static;
+		text-align: left;
+		padding: 0 40upx;
+	}

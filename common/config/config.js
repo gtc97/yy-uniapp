@@ -1,0 +1,11 @@
+export const url = "https://jycloud.jinyouapp.com/dianht/";
+export const shopId = "1";
+// export const shopId = "15";
+export const sysAppKey = "b2b-dht";
+export const appVersion = "1.1.14";// 小程序版本号与后台的相等进入测试数据
+// export const h5Url = "http://o2o.waimai101.com/h5/b2b_dht_h52/#";
+// export const h5Url = "https://jycloud2.jinyouapp.com/h5/b2b_dht_h5/v13/#";
+export const h5Url = "https://jycloud2.jinyouapp.com/h5/b2b_h5/#";
+// export const h5Url = "http://192.168.1.32:8081/#";
+export const amapKey = "0a647d4c9f629bf95ec5b244afbc25b2";
+// export const amapKey = "28d096fc6bdcb0bdb2ee484aaa92d155";
